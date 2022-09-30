@@ -1,2 +1,0 @@
-C:/Users/ekordin/2022-polytech-averin/02_compiler/build/CMakeFiles/edit_cache.dir
-C:/Users/ekordin/2022-polytech-averin/02_compiler/build/CMakeFiles/rebuild_cache.dir
