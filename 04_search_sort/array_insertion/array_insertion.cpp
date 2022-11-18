@@ -11,7 +11,7 @@ int search_position(int arr[], int n, int x)
 }
 
 
-int *insert(int arr[], int n, int x, int p) {
+int insert(int arr[], int n, int x, int p) {
   for (auto i = n; i > p; i--)
     arr[i] = arr[i - 1];
 
@@ -20,7 +20,7 @@ int *insert(int arr[], int n, int x, int p) {
 }
 
 
-int *insert_sorted(int arr[], int n, int x) {
+int insert_sorted(int arr[], int n, int x) {
   int p = search_position(arr, n, x);
   return insert(arr, n, x, p);
 };
