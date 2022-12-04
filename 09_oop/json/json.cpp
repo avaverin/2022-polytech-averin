@@ -116,6 +116,8 @@ int main()
         }
     };
 
+    cout << json.output() << endl;
+
     Json json2
     {
         unordered_map <string, BasicToken>
